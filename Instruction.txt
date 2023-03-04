@@ -1,0 +1,17 @@
+Tutorials brought to you by Webzo Studio, http://www.webzo.org
+
+This tutorial and all its elements (script, design, and wordings) is copyright of Webzo Studio.
+What that means is: You can use these files however you want and only for your personal use. You can't redistribute, or give it to somebody else, without proper credits to the author. Even if you have modified this tutorial, I would really appreciate if you include credits to Webzo Studio. I'd be more than happy to hear from you if you are going to use this script or to modify it.
+
+Credits should include:
+- Brand: Webzo Studio
+- URL Address: http://www.webzo.org
+- Link to http://www.webzo.org
+
+These files are for personal and non-commercial use only. By downloading the files, you have agreed to our terms and conditions (http://www.webzo.org/terms.php). For other purpose of usage, please contact tutorials@webzo.org
+
+Thanks for downloading this tutorial and happy learning!
+
+
+Webzo Studio Team
+tutorials@webzo.org

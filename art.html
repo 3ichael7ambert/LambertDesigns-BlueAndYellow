@@ -1,0 +1,373 @@
+<html>
+<head>
+<script type="text/javascript" src="ieupdate.js"></script>
+
+<style type="text/css">
+.nav {
+	/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+  position: absolute; left: 10px; top: 60px;
+}
+body > div.nav {
+  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+  position: fixed;
+}
+</style>
+<style type="text/css">
+div.nav {
+  /* IE5.5+/Win - this is more specific than the IE 5.0 version */
+  left: expression( ( 10 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  top: expression( ( 60 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+</style>
+
+<style type="text/css">
+.nav2 {
+	/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+  position: absolute; left: 10px; top: 110px;
+}
+body > div.nav2 {
+  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+  position: fixed;
+}
+
+div.nav2 {
+  /* IE5.5+/Win - this is more specific than the IE 5.0 version */
+  left: expression( ( 10 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  top: expression( ( 50 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+.char {
+	/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+  position: absolute; left: 0px; top: 0px; width:100%; height:100%;
+}
+body > div.char {
+  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+  position: fixed;
+}
+div.char {
+  /* IE5.5+/Win - this is more specific than the IE 5.0 version */
+  left: expression( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  top: expression( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+
+body
+{
+color:FFFFFF;
+background-image:url('bg3.png');
+background-position:center top;
+background-repeat:repeat-y;
+background-attachment:fixed;
+background-color:#000000;
+}
+.nav
+{
+position:fixed;
+top:110;
+left:10;
+width:150;
+height175;
+z-index:11;
+}
+.nav2
+{
+position:fixed;
+top:100;
+left:10;
+width:150;
+height175;
+z-index:10;
+}
+.container1
+{
+position:relative;
+top:-10;
+background-image:url('bg2.png');
+background-position:center top;
+background-repeat:repeat-y;
+background-attachment:fixed;
+width:100%;
+height:800;
+}
+.container2
+{
+
+background-image:url('bg1.png');
+background-position:center top;
+background-repeat:repeat-y;
+background-attachment:fixed;
+width:100%;
+height:800;
+}
+.container3
+{
+
+background-image:url('fgrd.png');
+background-position:center top;
+background-repeat:no-repeat;
+width:100%;
+height:800;
+
+}
+.cr
+{width:800;
+background-image:url('strip.png');
+background-color:000000;
+height:25;
+background-position:center top;
+}
+.box
+{
+position:relative;
+background-image:url('shop_bg.png');
+width:600;
+height:400;
+top:100;
+left:0;
+overflow:scroll;
+background-attachment:fixed;
+}
+.char
+{
+width:100%;
+height:100%;
+z-index:-15;
+}
+.header
+{
+position:relative;
+background-image:url('/headers/artwork.png');
+width:600;
+height:200;
+top:-50;
+left:200;
+overflow:auto;
+}
+a.m37:link, .m37{display: block; width:150;height:50;background-image:url(/buttons/btns_mikey37.png);}
+a.m37:hover{display: block; width:150;height:50;background-image:url(/buttons/btns_mikey37H.png);}
+a.m37:active{display: block; width:150;height:50;background-image:url(/buttons/btns_mikey37D.png);}
+
+a.about:link, .about{display: block; background-image:url(/buttons/btns_about.png);width:150;height:50;}
+a.about:hover{display: block; background-image:url(/buttons/btns_aboutH.png);width:150;height:50;}
+a.about:active{display: block; background-image:url(/buttons/btns_aboutD.png);width:150;height:50;}
+
+a.showcase:link, .showcase{display: block; background-image:url(/buttons/btns_showcase.png);width:150;height:50;}
+a.showcase:hover{display: block; background-image:url(/buttons/btns_showcaseH.png);width:150;height:50;}
+a.showcase:active{display: block; background-image:url(/buttons/btns_showcaseD.png);width:150;height:50;}
+
+a.divinity:link, .divinity{display: block; background-image:url(/buttons/btns_divinity.png);width:150;height:50;}
+a.divinity:hover{display: block; background-image:url(/buttons/btns_divinityH.png);width:150;height:50;}
+a.divinity:active{display: block; background-image:url(/buttons/btns_divinityD.png);width:150;height:50;}
+
+a.artwork:link, .artwork{display: block; background-image:url(/buttons/btns_artworkC.png);width:150;height:50;}
+a.artwork:hover{display: block; background-image:url(/buttons/btns_artworkH.png);width:150;height:50;}
+a.artwork:active{display: block; background-image:url(/buttons/btns_artworkD.png);width:150;height:50;}
+
+a.studio:link, .studio{display: block; background-image:url(/buttons/btns_studio.png);width:150;height:50;}
+a.studio:hover{display: block; background-image:url(/buttons/btns_studioH.png);width:150;height:50;}
+a.studio:active{display: block; background-image:url(/buttons/btns_studioD.png);width:150;height:50;}
+
+a.shop37:link, .shop37{display: block; background-image:url(/buttons/btns_shop37.png);width:150;height:50;}
+a.shop37:hover{display: block; background-image:url(/buttons/btns_shop37H.png);width:150;height:50;}
+a.shop37:active{display: block; background-image:url(/buttons/btns_shop37D.png);width:150;height:50;}
+
+a.support:link, .support{display: block; background-image:url(/buttons/btns_support.png);width:150;height:50;}
+a.support:hover{display: block; background-image:url(/buttons/btns_supportH.png);width:150;height:50;}
+a.support:active{display: block; background-image:url(/buttons/btns_supportD.png);width:150;height:50;}
+
+@media screen {
+
+* html, 
+* html body { 
+overflow-x: hidden!important; 
+width: 100%;
+margin: 0;
+padding: 0; 
+}
+* html #iefix { 
+width: 100%;
+overflow-x: scroll;
+position: relative;
+}
+ 
+* html div.nav, 
+* html div.nav2 {
+position: absolute;
+}
+
+
+</style>
+
+<SCRIPT language="JavaScript">
+<!--
+if (document.images)
+{
+  pic1= new Image(150,50); 
+  pic1.src="/headers/btns_aboutH.png"; 
+  pic2= new Image(150,50); 
+  pic2.src="/headers/btns_aboutD.png"; 
+  
+  pic3= new Image(150,50); 
+  pic3.src="/headers/btns_artworkH.png"; 
+  pic4= new Image(150,50); 
+  pic4.src="/headers/btns_artworkD.png"; 
+  
+  pic5= new Image(150,50); 
+  pic5.src="/headers/btns_divinityH.png"; 
+  pic6= new Image(150,50); 
+  pic6.src="/headers/btns_divinityD.png"; 
+
+  pic7= new Image(150,50); 
+  pic7.src="/headers/btns_mikey37H.png"; 
+  pic8= new Image(150,50); 
+  pic8.src="/headers/btns_mikey37D.png"; 
+
+  pic9= new Image(150,50); 
+  pic9.src="/headers/btns_shop37H.png"; 
+  pic10= new Image(150,50); 
+  pic10.src="/headers/btns_shop37D.png"; 
+  
+  pic11= new Image(150,50); 
+  pic11.src="/headers/btns_showcaseH.png"; 
+  pic12= new Image(150,50); 
+  pic12.src="/headers/btns_showcaseD.png";
+  
+  pic13= new Image(150,50); 
+  pic13.src="/headers/btns_studioH.png"; 
+  pic14= new Image(150,50); 
+  pic14.src="/headers/btns_studioD.png"; 
+
+  pic15= new Image(150,50); 
+  pic15.src="/headers/btns_supportH.png"; 
+  pic16= new Image(150,50); 
+  pic16.src="/headers/btns_supportD.png"; 
+  
+}
+//-->
+</SCRIPT>
+
+
+</head>
+
+<body onload="javascript: anee.focus()">
+
+
+<center>
+  <div class=container1> 
+    <div class=container2> 
+      <div class=container3> 
+        <div class=header> </div>
+        <div class=box>
+<table width=100% height=100%>
+<tr>
+<td>
+<center>
+<b>Only The Finest</b> ~ <i>Fine Arts</i>Artwork done using Ink, Oils, Acrylics, Watercolor, Charcoal, Graphite, Color pencil and Marker.<br>
+ <script language="javascript">
+      document.write('<object classid="clsid:A763FB1D-703C-40AA-9FFD-4F23ED8D8641" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9.0.0.0"width=" 600" height="338" ID="anee" VIEWASTEXT>');  
+      document.write('  <param name="movie" value="gallery/finearts.swf" />');  
+      document.write('  <param name="quality" value="high" />');  
+      document.write('  <param name="wmode" value="window" />');  
+      document.write('  <param name="allowScriptAccess" value="always" />'); 
+      document.write('  <param name="allowFullScreen" value="True" />');  
+      document.write('  <embed src="gallery/finearts.swf" quality="high" name="anee" allowScriptAccess="always" allowFullScreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="338"></embed>');  
+      document.write('</object>');  
+</script> 
+<br><img src=bar.png> <br>
+<b>Life Itself</b> ~ <i>Life Drawing</i>; Figure Drawing, Portraits, and Still Life<br>
+ <script language="javascript">
+      document.write('<object classid="clsid:A763FB1D-703C-40AA-9FFD-4F23ED8D8641" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9.0.0.0"width=" 600" height="338" ID="anee" VIEWASTEXT>');  
+      document.write('  <param name="movie" value="gallery/lifedrawing.swf" />');  
+      document.write('  <param name="quality" value="high" />');  
+      document.write('  <param name="wmode" value="window" />');  
+      document.write('  <param name="allowScriptAccess" value="always" />'); 
+      document.write('  <param name="allowFullScreen" value="True" />');  
+      document.write('  <embed src="gallery/lifedrawing.swf" quality="high" name="anee" allowScriptAccess="always" allowFullScreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="338"></embed>');  
+      document.write('</object>');  
+</script> 
+<br><img src=bar.png> <br>
+<b>Sketchy</b> ~ <i>Sketchbook</i>; When an Illustrator meets a blank page, "Why, Hello There! New Friend."<br>
+ <script language="javascript">
+      document.write('<object classid="clsid:A763FB1D-703C-40AA-9FFD-4F23ED8D8641" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9.0.0.0"width=" 600" height="338" ID="anee" VIEWASTEXT>');  
+      document.write('  <param name="movie" value="gallery/sketchbook.swf" />');  
+      document.write('  <param name="quality" value="high" />');  
+      document.write('  <param name="wmode" value="window" />');  
+      document.write('  <param name="allowScriptAccess" value="always" />'); 
+      document.write('  <param name="allowFullScreen" value="True" />');  
+      document.write('  <embed src="gallery/sketchbook.swf" quality="high" name="anee" allowScriptAccess="always" allowFullScreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="338"></embed>');  
+      document.write('</object>');  
+</script> 
+<br><img src=bar.png> <br>
+<b>The Digital Sphere</b> ~ <i>Digital Artwork</i>; Artwork done by using computer software.<br>
+ <script language="javascript">
+      document.write('<object classid="clsid:A763FB1D-703C-40AA-9FFD-4F23ED8D8641" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9.0.0.0"width=" 600" height="338" ID="anee" VIEWASTEXT>');  
+      document.write('  <param name="movie" value="gallery/digital.swf" />');  
+      document.write('  <param name="quality" value="high" />');  
+      document.write('  <param name="wmode" value="window" />');  
+      document.write('  <param name="allowScriptAccess" value="always" />'); 
+      document.write('  <param name="allowFullScreen" value="True" />');  
+      document.write('  <embed src="gallery/digital.swf" quality="high" name="anee" allowScriptAccess="always" allowFullScreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="338"></embed>');  
+      document.write('</object>');  
+</script> 
+<br><img src=bar.png> <br>
+<b>Lets Play A Game?</b> ~ <i>Game Design</i>; Create a beautiful world, for that 'someone' to live in.<br>
+ <script language="javascript">
+      document.write('<object classid="clsid:A763FB1D-703C-40AA-9FFD-4F23ED8D8641" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9.0.0.0"width=" 600" height="338" ID="anee" VIEWASTEXT>');  
+      document.write('  <param name="movie" value="gallery/gamedesign.swf" />');  
+      document.write('  <param name="quality" value="high" />');  
+      document.write('  <param name="wmode" value="window" />');  
+      document.write('  <param name="allowScriptAccess" value="always" />'); 
+      document.write('  <param name="allowFullScreen" value="True" />');  
+      document.write('  <embed src="gallery/gamedesign.swf" quality="high" name="anee" allowScriptAccess="always" allowFullScreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="338"></embed>');  
+      document.write('</object>');  
+</script>
+
+<br><img src=bar.png> <br>
+<b>Lie Still For Me</b> ~ <i>Photography</i>; Capturing meaning from the world around us.<br>
+ <script language="javascript">
+      document.write('<object classid="clsid:A763FB1D-703C-40AA-9FFD-4F23ED8D8641" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9.0.0.0"width=" 600" height="338" ID="anee" VIEWASTEXT>');  
+      document.write('  <param name="movie" value="gallery/photography.swf" />');  
+      document.write('  <param name="quality" value="high" />');  
+      document.write('  <param name="wmode" value="window" />');  
+      document.write('  <param name="allowScriptAccess" value="always" />'); 
+      document.write('  <param name="allowFullScreen" value="True" />');  
+      document.write('  <embed src="gallery/photography.swf" quality="high" name="anee" allowScriptAccess="always" allowFullScreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="338"></embed>');  
+      document.write('</object>');  
+</script>
+
+
+</center>
+</td>
+</tr>
+</table></div>
+      </div>
+    </div>
+    <div class=nav2> <img src="sqr.png" width=150 height=325> </div>
+    <div class=nav> <a class="m37" href=mikey37.html></a> <a class="about" href=about.html></a> 
+      <a class="showcase" href=divinity.html></a> <a class="divinity" href=divinity.html></a> 
+      <a class="artwork" href=art.html></a> <a class="studio" href=music.html></a> 
+      <a class="shop37" href=shop.html></a> <a class="support" href=support.html></a> 
+    </div>
+    <div class=cr> <small>Copyright © All Material and their respective owners. 
+      Michael Andrew Lambert Jr. 2010</small> </div>
+  </div>
+  <div class="char">
+<object class="char" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" HEIGHT="100%" WIDTH="100%" SCALE="EXACTFIT" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" id="char" align="middle" style="position:fixed; top:0; left:0; z-index:-10;">
+
+<param name="allowScriptAccess" value="sameDomain" />
+
+<param name="movie" value="char.swf" />
+
+<param name="quality" value="high" />
+
+<param name="wmode" value="transparent"> 
+
+<PARAM NAME="SCALE" VALUE="showall">
+
+<embed src="char.swf" class="char" wmode="transparent" quality="high" bgcolor="#000000" HEIGHT="100%" WIDTH="100%" SCALE="EXACTFIT" name="char" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+
+</object>
+</div>
+</center>
+
+
+</body>
+</html>

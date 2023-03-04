@@ -1,0 +1,567 @@
+
+
+<html>
+
+<title>Mikey37.com - Visual and Audio</title>
+
+<head>
+<script type="text/javascript" src="ieupdate.js"></script>
+
+<style type="text/css">
+.nav {
+	/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+  position: absolute; left: 10px; top: 60px;
+}
+body > div.nav {
+  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+  position: fixed;
+}
+</style>
+<style type="text/css">
+div.nav {
+  /* IE5.5+/Win - this is more specific than the IE 5.0 version */
+  left: expression( ( 10 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  top: expression( ( 60 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+</style>
+
+<style type="text/css">
+.nav2 {
+	/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+  position: absolute; left: 10px; top: 110px;
+}
+body > div.nav2 {
+  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+  position: fixed;
+}
+</style>
+
+<style type="text/css">
+div.nav2 {
+  /* IE5.5+/Win - this is more specific than the IE 5.0 version */
+  left: expression( ( 10 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  top: expression( ( 50 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+</style>
+
+<style type="text/css">
+.char {
+	/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+  position: absolute; left: 0px; top: 0px; width:100%; height:100%;
+}
+body > div.char {
+  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+  position: fixed;
+}
+</style>
+<style type="text/css">
+div.char {
+  /* IE5.5+/Win - this is more specific than the IE 5.0 version */
+  left: expression( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  top: expression( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+</style>
+
+<style type=text/css>
+
+body
+
+{
+
+color:FFFFFF;
+
+background-image:url('bg3.png');
+
+background-position:center top;
+
+background-repeat:repeat-y;
+
+background-attachment:fixed;
+
+background-color:#000000;
+
+}
+
+
+
+.nav
+
+{
+
+position:fixed;
+
+top:110;
+
+left:10;
+
+width:150;
+
+height175;
+
+z-index:11;
+
+}
+
+.nav2
+
+{
+
+position:fixed;
+
+top:100;
+
+left:10;
+
+width:150;
+
+height175;
+
+z-index:10;
+
+}
+
+
+
+.container1
+
+{
+
+position:relative;
+
+top:-10;
+
+background-image:url('bg2.png');
+
+background-position:center top;
+
+background-repeat:repeat-y;
+
+background-attachment:fixed;
+
+width:100%;
+
+height:800;
+
+}
+
+.container2
+
+{
+
+
+
+background-image:url('bg1.png');
+
+background-position:center top;
+
+background-repeat:repeat-y;
+
+background-attachment:fixed;
+
+width:100%;
+
+height:800;
+
+}
+
+.container3
+
+{
+
+
+
+background-image:url('fgrd.png');
+
+background-position:center top;
+
+background-repeat:no-repeat;
+
+width:100%;
+
+height:800;
+
+
+
+}
+
+.cr
+
+{width:800;
+
+background-image:url('strip.png');
+
+background-color:000000;
+
+height:25;
+
+background-position:center top;
+
+}
+
+.box
+
+{
+
+position:relative;
+
+width:350;
+
+height:100;
+
+top:-115;
+
+left:-160;
+
+overflow:auto;
+
+background-image:url('about1_bg.png');
+
+background-attachment:fixed;
+
+}
+
+.box2
+
+{
+
+position:relative;
+
+width:265;
+
+height:100;
+
+top:20;
+
+left:15;
+
+overflow:auto;
+
+background-image:url('about2_bg.png');
+
+background-attachment:fixed;
+
+}
+
+.twit
+
+{
+
+position:relative;
+
+width:200;
+
+height:250;
+
+top:-175;
+
+left:250;
+
+background-color:#000000;
+
+}
+
+.header
+
+{
+
+position:relative;
+
+background-image:url('/headers/about.png');
+
+width:500;
+
+height:200;
+
+top:100;
+
+left:0;
+
+}
+
+.portrait
+
+{
+
+position:relative;
+
+background-image:url('portrait.png');
+
+width:300;
+
+height:300;
+
+top:35;
+
+left:150;
+
+}
+
+a.m37:link, .m37{display: block; width:150;height:50;background-image:url(/buttons/btns_mikey37.png);}
+a.m37:hover{display: block; width:150;height:50;background-image:url(/buttons/btns_mikey37H.png);}
+a.m37:active{display: block; width:150;height:50;background-image:url(/buttons/btns_mikey37D.png);}
+
+a.about:link, .about{display: block; background-image:url(/buttons/btns_aboutC.png);width:150;height:50;}
+a.about:hover{display: block; background-image:url(/buttons/btns_aboutH.png);width:150;height:50;}
+a.about:active{display: block; background-image:url(/buttons/btns_aboutD.png);width:150;height:50;}
+
+a.showcase:link, .showcase{display: block; background-image:url(/buttons/btns_showcase.png);width:150;height:50;}
+a.showcase:hover{display: block; background-image:url(/buttons/btns_showcaseH.png);width:150;height:50;}
+a.showcase:active{display: block; background-image:url(/buttons/btns_showcaseD.png);width:150;height:50;}
+
+a.divinity:link, .divinity{display: block; background-image:url(/buttons/btns_divinity.png);width:150;height:50;}
+a.divinity:hover{display: block; background-image:url(/buttons/btns_divinityH.png);width:150;height:50;}
+a.divinity:active{display: block; background-image:url(/buttons/btns_divinityD.png);width:150;height:50;}
+
+a.artwork:link, .artwork{display: block; background-image:url(/buttons/btns_artwork.png);width:150;height:50;}
+a.artwork:hover{display: block; background-image:url(/buttons/btns_artworkH.png);width:150;height:50;}
+a.artwork:active{display: block; background-image:url(/buttons/btns_artworkD.png);width:150;height:50;}
+
+a.studio:link, .studio{display: block; background-image:url(/buttons/btns_studio.png);width:150;height:50;}
+a.studio:hover{display: block; background-image:url(/buttons/btns_studioH.png);width:150;height:50;}
+a.studio:active{display: block; background-image:url(/buttons/btns_studioD.png);width:150;height:50;}
+
+a.shop37:link, .shop37{display: block; background-image:url(/buttons/btns_shop37.png);width:150;height:50;}
+a.shop37:hover{display: block; background-image:url(/buttons/btns_shop37H.png);width:150;height:50;}
+a.shop37:active{display: block; background-image:url(/buttons/btns_shop37D.png);width:150;height:50;}
+
+a.support:link, .support{display: block; background-image:url(/buttons/btns_support.png);width:150;height:50;}
+a.support:hover{display: block; background-image:url(/buttons/btns_supportH.png);width:150;height:50;}
+a.support:active{display: block; background-image:url(/buttons/btns_supportD.png);width:150;height:50;}
+
+@media screen {
+
+* html, 
+* html body { 
+overflow-x: hidden!important; 
+width: 100%;
+margin: 0;
+padding: 0; 
+}
+* html #iefix { 
+width: 100%;
+overflow-x: scroll;
+position: relative;
+}
+ 
+* html div.nav, 
+* html div.nav2 {
+position: absolute;
+}
+
+}
+
+</style>
+
+<SCRIPT language="JavaScript">
+<!--
+if (document.images)
+{
+  pic1= new Image(150,50); 
+  pic1.src="/headers/btns_aboutH.png"; 
+  pic2= new Image(150,50); 
+  pic2.src="/headers/btns_aboutD.png"; 
+  
+  pic3= new Image(150,50); 
+  pic3.src="/headers/btns_artworkH.png"; 
+  pic4= new Image(150,50); 
+  pic4.src="/headers/btns_artworkD.png"; 
+  
+  pic5= new Image(150,50); 
+  pic5.src="/headers/btns_divinityH.png"; 
+  pic6= new Image(150,50); 
+  pic6.src="/headers/btns_divinityD.png"; 
+
+  pic7= new Image(150,50); 
+  pic7.src="/headers/btns_mikey37H.png"; 
+  pic8= new Image(150,50); 
+  pic8.src="/headers/btns_mikey37D.png"; 
+
+  pic9= new Image(150,50); 
+  pic9.src="/headers/btns_shop37H.png"; 
+  pic10= new Image(150,50); 
+  pic10.src="/headers/btns_shop37D.png"; 
+  
+  pic11= new Image(150,50); 
+  pic11.src="/headers/btns_showcaseH.png"; 
+  pic12= new Image(150,50); 
+  pic12.src="/headers/btns_showcaseD.png";
+  
+  pic13= new Image(150,50); 
+  pic13.src="/headers/btns_studioH.png"; 
+  pic14= new Image(150,50); 
+  pic14.src="/headers/btns_studioD.png"; 
+
+  pic15= new Image(150,50); 
+  pic15.src="/headers/btns_supportH.png"; 
+  pic16= new Image(150,50); 
+  pic16.src="/headers/btns_supportD.png"; 
+  
+}
+//-->
+</SCRIPT>
+</head>
+
+
+
+<body>
+
+<center>
+
+  <div class=container1> 
+    <div class=container2> 
+      <div class=container3> 
+        <div class=header> </div>
+        <div class=portrait> </div>
+        <div class=box> <i>Michael Lambert</i>, an artist mainly stationed in 
+          Denver, Colorado. Also tends to do national work. 
+          <hr>
+          If I could take your words, and fill them up with air. We would fly 
+          away, and disappear.<br />
+          <br />
+          Yet remember, this might be the last time you will ever see me.<br />
+          Goodbye will pass by before you've realized it has been hello.<br />
+          <br />
+          Everyone knows Something, Nobody knows Everything.<br />
+          But I want know what you know.<br />
+          <hr />
+          <br />
+          As I sit in my room, I have you on the phone.<br />
+          I will be there soon.<br />
+          <br />
+          To party hard after a hard day of work.<br />
+          ...and I would never have it any other way.<br />
+          But if I had a chance for another try in a different way, I would not 
+          change a thing.<br />
+          <br />
+          I will make you laugh, I will have you cry, You will worry about me 
+          as I worry for you, I will be on my knees in a vague disappointment; 
+          because of the day I ruined your life just as I saved it.<br />
+          <br />
+          I will be your bestfriend.<br />
+          <hr />
+          <br />
+          I believe in a lot of things, Aliens, God (or a higher being of some 
+          sort), Everything happens for a reason, Everyone has good within them, 
+          and that the world is my friend.<br />
+          <br />
+          I also live in the Mile High, so hence take a guess, I like the occasional 
+          being a mile high. Its legal to posses it so hey, why not?<br />
+          Salvia, is by far better. ("Mikey? You know Mikey? Mike and his herbs!"). 
+          I do not however, condone any substance as a lifestyle. End Of Story. 
+          <br />
+          <hr />
+          <br />
+          Currently I have many goals in achieve in my life. Amongst these and 
+          the most important is the search to find my long lost sister. Someday 
+          to have a career. Someday to be a father and a loving husband. And, 
+          to have a heart of pure gold.<br />
+          <br />
+          Until I reach these goals, I am completely content with my current lifestlye.<br />
+          The guy you'll see hanging out with all his bros at a pool hall, smoking 
+          a big fat Cuban cigar and drinking aMike's Hard Limeade on a shooting 
+          star.<br />
+          <br />
+          <b>Lets Go On An Adventure?</b> </div>
+        <div class=box2> 
+          <table>
+            <small> 
+            <tr> 
+              <td><b>Name</b></td>
+              <td><i>Michael Andrew Lambert Jr</i></td>
+            </tr>
+            <tr> 
+              <td><b>Birthplace</b></td>
+              <td><i>Aurora, Colorado</i></td>
+            </tr>
+            <tr> 
+              <td><b>Birthdate</b></td>
+              <td><i> June 1<sup>st</sup> 1990</i></td>
+            </tr>
+            <tr> 
+              <td><b>Phone</b></td>
+              <td><i>720-629-7419</i></td>
+            </tr>
+            <tr> 
+              <td><b>Email</b></td>
+              <td><i>lambert@mikey37.com</i></td>
+            </tr>
+            <tr> 
+              <td><b>Occupation</b></td>
+              <td><i>Freelance Artist</i></td>
+            </tr>
+            </small> 
+          </table>
+        </div>
+        <div class=twit> 
+          <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 8,
+  interval: 6000,
+  width: 200,
+  height: 250,
+  theme: {
+    shell: {
+      background: '#000000',
+      color: '#00ff00'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#00ffff',
+      links: '#ff00ff'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'default'
+  }
+}).render().setUser('deadsexymikey').start();
+</script>
+        </div>
+      </div>
+    </div>
+    <div class=nav2> <img src="sqr.png" width=150 height=325> </div>
+    <div class=nav> <br>
+      <br>
+      <br>
+      <a class="m37" href=mikey37.html></a> <a class="about" href=about.html></a> 
+      <a class="showcase" href=divinity.html></a> <a class="divinity" href=divinity.html></a> 
+      <a class="artwork" href=art.html></a> <a class="studio" href=music.html></a> 
+      <a class="shop37" href=shop.html></a> <a class="support" href=support.html></a></div>
+    <div class=cr> <small>Copyright © All Material and their respective owners. 
+      Michael Andrew Lambert Jr. 2010</small> </div>
+  </div>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" HEIGHT="100%" WIDTH="100%" SCALE="EXACTFIT" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" id="char" align="middle" style="position:absolute; top:0; left:0; z-index:-10;">
+
+<param name="allowScriptAccess" value="sameDomain" />
+
+<param name="movie" value="char.swf" />
+
+<param name="quality" value="high" />
+
+<param name="wmode" value="transparent"> 
+
+<PARAM NAME="SCALE" VALUE="showall">
+
+<embed src="char.swf" wmode="transparent" quality="high" bgcolor="#000000" HEIGHT="100%" WIDTH="100%" SCALE="EXACTFIT" name="char" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+
+</object>
+
+</center>
+
+
+
+
+
+</body>
+
+</html>
+

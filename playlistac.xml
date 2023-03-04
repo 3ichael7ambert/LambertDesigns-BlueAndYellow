@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <trackList>
+			<track>
+			<creator>A Rocket's Intensity</creator><title>The Feeling I Get</title>
+			<location>http://www.mikey37.com/music/acoustic/The Feeling I Get.mp3</location>
+		</track>
+		<track>
+			<creator>A Rocket's Intensity</creator><title>Do You Remember?</title>
+			<location>http://www.mikey37.com/music/acoustic/do you remember.mp3</location>
+		</track>
+		<track>
+			<creator>A Rocket's Intensity</creator><title>As The Rain</title>
+			<location>http://www.mikey37.com/music/acoustic/As The Rain.mp3</location>
+		</track>
+		<track>
+			<creator>A Rocket's Intensity</creator><title>Treasure</title>
+			<location>http://www.mikey37.com/music/acoustic/tresuarrrrrr.mp3</location>
+		</track>
+		<track>
+			<creator>A Rocket's Intensity</creator><title>Tonight's The Night</title>
+			<location>http://www.mikey37.com/music/acoustic/Tonight's The Night.mp3</location>
+		</track>
+		<track>
+			<creator>A Rocket's Intensity</creator><title>Are You Out There?</title>
+			<location>http://www.mikey37.com/music/acoustic/are you out there.mp3</location>
+		</track>
+		<track>
+			<creator>A Rocket's Intensity</creator><title>Hello, My Friend, Hello</title>
+			<location>http://www.mikey37.com/music/acoustic/Hello My Friend Hello.mp3</location>
+		</track>
+		<track>
+			<creator>A Rocket's Intensity</creator><title>Nazi Jesus</title>
+			<location>http://www.mikey37.com/music/acoustic/Nazi Jesus.mp3</location>
+		</track>
+		<track>
+			<creator>A Rocket's Intensity</creator><title>Young London (Angels & Airwaves)</title>
+			<location>http://www.mikey37.com/music/acoustic/Young London.mp3</location>
+		</track>
+	</trackList>
+</playlist>
